@@ -200,7 +200,7 @@ body {
     padding-left: 43px;
     width: 297px;
     padding-bottom: 22px;
-    background: transparent url(/img/svg/intro-oval.svg) no-repeat 0% 18%;
+    background: transparent url(../img/svg/intro-oval.svg) no-repeat 0% 18%;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid #BFC0C5;
@@ -300,12 +300,12 @@ body {
     line-height: 24px;
     color: #006DFE;
     text-decoration: none;
-    background: url(/img/svg/benefits-arrow.svg) no-repeat 95% center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat 95% center;
     transition: .2s;
 }
 
 .benefits__card-link:hover, .benefits__card-link:focus{
-    background: url(/img/svg/benefits-arrow.svg) no-repeat right center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat right center;
 }
 
 .benefits__card-ico{
@@ -342,13 +342,13 @@ body {
     line-height: 24px;
     color: #006DFE;
     padding-right: 59px;
-    background: url(/img/svg/benefits-arrow.svg) no-repeat 95% center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat 95% center;
     transition: .2s;
 
 }
 
 .places__link:focus,.places__link:hover {
-    background: url(/img/svg/benefits-arrow.svg) no-repeat right center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat right center;
 }
 
 .places__cards {
@@ -461,13 +461,13 @@ body {
     line-height: 24px;
     color: #006DFE;
     padding-right: 59px;
-    background: url(/img/svg/benefits-arrow.svg) no-repeat 95% center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat 95% center;
     transition: .2s;
     text-decoration: none;
 }
 
 .tours__link:hover,.tours__link:focus {
-    background: url(/img/svg/benefits-arrow.svg) no-repeat right center;
+    background: url(../img/svg/benefits-arrow.svg) no-repeat right center;
 }
 
 /* Tours styles end*/
@@ -523,7 +523,7 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     padding-right: 20px;
-    background: url(/img/svg/top-likes.svg) no-repeat right center;
+    background: url(../img/svg/top-likes.svg) no-repeat right center;
     margin-right: 14px;
 }
 
@@ -533,7 +533,7 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     padding-right: 23px;
-    background: url(/img/svg/top-comments.svg) no-repeat right center;
+    background: url(../img/svg/top-comments.svg) no-repeat right center;
 }
 
 .top__card-desc {
@@ -641,7 +641,7 @@ body {
     }
     .searh-form__field {
         margin-bottom: 25px;
-        background: transparent url(/img/svg/intro-oval.svg) no-repeat left top;
+        background: transparent url(../img/svg/intro-oval.svg) no-repeat left top;
     }
     .benefits__cards {
         gap: 35px;
@@ -755,7 +755,7 @@ body {
         width: 100%;
         margin-right: 0;
         padding-bottom: 12px;
-        background: transparent url(/img/svg/intro-oval.svg) no-repeat left 0;
+        background: transparent url(../img/svg/intro-oval.svg) no-repeat left 0;
     }
     .searh-form__field::placeholder {
         font-size: 16px;
