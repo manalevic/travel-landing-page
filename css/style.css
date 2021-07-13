@@ -164,7 +164,7 @@ body {
 /* Intro styles start*/
 
 .intro {
-    background: url(/img/intro-bg.jpg);
+    background: url(../img/intro-bg.jpg);
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 376px;
