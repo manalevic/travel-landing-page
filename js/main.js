@@ -14,12 +14,20 @@
     let burgerItem = document.querySelector('.header__burger')
     let menu = document.querySelector('.header__nav')
     let menuCloseItem = document.querySelector('.header__nav-close')
+    let menuLinks = document.querySelectorAll('.header__link')
     burgerItem.addEventListener('click',() => {
         menu.classList.add('header__nav-active')
     })
     menuCloseItem.onclick = () => {
         menu.classList.remove('header__nav-active')
     }
+    if (window.innerWidth <= 767) {
+        for (i = 0; i < menuLinks.length; i++) {
+            menuLinks[i].addEventListener('click',() => {
+                menu.classList.remove('header__nav-active');
+            });
+        }
+    };
 }());
 
 //scroll to anchors
